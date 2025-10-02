@@ -1,4 +1,4 @@
-# Company Program (Sample/Redacted)
+# Inventory Checking Program (Sample/Redacted)
 
 This repository provides a **minimal, redaction‑safe sample** of a larger internal program.
 It demonstrates **architecture, interfaces, tests, and a tiny CLI** without exposing any proprietary logic.
