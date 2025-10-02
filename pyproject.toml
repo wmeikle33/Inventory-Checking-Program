@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "company-program-sample"
+version = "0.1.0"
+description = "Redaction-safe, minimal sample of a larger internal program."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name="Your Name"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
