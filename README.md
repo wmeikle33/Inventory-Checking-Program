@@ -6,10 +6,7 @@ It demonstrates **architecture, interfaces, tests, and a tiny CLI** without expo
 > ✅ You can share this repo publicly. All domain details are generic; any sensitive components are stubbed.
 
 ## What's included
-- **Interfaces & adapters** showing clean extension points.
-- **Tiny pipeline** that aggregates demo CSV (sum by category).
-- **CLI** (`python -m sample_app.cli`) with `--input/--output`.
-- **Unit test** (pytest) and **GitHub Actions CI**.
+- **Sample Code** that aggregates demo CSV (sum by category).
 - **Redaction policy** to guide what *can/can't* be shared.
 
 ## Quickstart
