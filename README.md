@@ -1,7 +1,7 @@
 # Inventory Checking Program (Sample/Redacted)
 
 This repository provides a **minimal, redaction‑safe sample** of a larger internal program.
-It demonstrates **architecture, interfaces, tests, and a tiny CLI** without exposing any proprietary logic.
+It demonstrates sample code without exposing any proprietary logic.
 
 > ✅ You can share this repo publicly. All domain details are generic; any sensitive components are stubbed.
 
@@ -26,10 +26,7 @@ pytest -q
 ## Architecture (minimal, extensible)
 ```
 src/sample_app
-├── interfaces.py      # ABCs for Source, Sink, Processor
-├── adapters.py        # Local CSV Source/Sink, plus InMemory sink for tests
-├── pipeline.py        # Orchestrates Source -> Processor -> Sink
-└── cli.py             # CLI wrapper (argparse)
+├── sample code.py  
 ```
 - Replace or extend adapters with your internal implementations (kept private).
 - Keep interfaces stable to demonstrate design without revealing details.
