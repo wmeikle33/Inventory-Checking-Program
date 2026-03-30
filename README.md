@@ -28,7 +28,8 @@ pytest -q
 src/sample_app
 ├── inventory_checker.py
 ├── config.py
-├── inventory_checker.py  
+├── data.py
+├── pipeline.py  
 ```
 - Replace or extend adapters with your internal implementations (kept private).
 - Keep interfaces stable to demonstrate design without revealing details.
