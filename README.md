@@ -26,7 +26,9 @@ pytest -q
 ## Architecture (minimal, extensible)
 ```
 src/sample_app
-├── sample code.py  
+├── inventory_checker.py
+├── inventory_checker.py
+├── inventory_checker.py  
 ```
 - Replace or extend adapters with your internal implementations (kept private).
 - Keep interfaces stable to demonstrate design without revealing details.
