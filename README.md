@@ -23,7 +23,7 @@ python -m sample_app.cli --input sample_data/input.csv --output sample_data/outp
 pytest -q
 ```
 
-## Architecture (minimal, extensible)
+## Repo Structure
 ```
 src/sample_app
 ├── inventory_checker.py
