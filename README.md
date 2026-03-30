@@ -27,7 +27,7 @@ pytest -q
 ```
 src/sample_app
 ├── inventory_checker.py
-├── inventory_checker.py
+├── config.py
 ├── inventory_checker.py  
 ```
 - Replace or extend adapters with your internal implementations (kept private).
