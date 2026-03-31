@@ -21,15 +21,10 @@ def run(
         columnA=columnA,
         columnB=columnB,
         out_dir=out_dir,
-        headless=headless,
-        delay_ms=delay_ms,
     )
 
     result = scrape(cfg)
 
-    print("[bold green]Done![/bold green]")
-    print(f"Posts: {result.posts_count}")
-    print(f"Comments: {result.comments_count}")
     print(f"Output: {out_dir.resolve()}")
 
     summary_path = out_dir.parent / "run_summary.json"
