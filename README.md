@@ -25,11 +25,17 @@ pytest -q
 
 ## Repo Structure
 ```
-src/sample_app
-├── inventory_checker.py
-├── config.py
-├── data.py
-├── pipeline.py  
+sample_app/
+├── pyproject.toml
+├── requirements.txt
+├── requirements-dev.txt
+├── src/
+│   └── sample_app/
+│       ├── model.py
+│       ├── pipeline.py
+│       ├── cli.py
+│       └── data.py
+
 ```
 - Replace or extend adapters with your internal implementations (kept private).
 - Keep interfaces stable to demonstrate design without revealing details.
