@@ -10,7 +10,8 @@ app = typer.Typer(add_completion=False, help="Inventory Checking Program CLI")
 
 @app.command()
 def run(
-    input_dir: Path = typer.Option(Path("data/"), "--out-dir", help="Output file path"),
+    input_dir: Path = typer.Option(Path("data/"), "--in-dir", help="Input file path"),
+    ooutput_dir: Path = typer.Option(Path("data/"), "--out-dir", help="Output file path"),
     columnA: str = typer.Option(..., "--Column A", help="Autohome section to scrape"),
     columnsB: str = typer.Option(1, "--Column B", min=1, help="Number of list pages to crawl"),
 ):
