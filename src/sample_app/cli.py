@@ -15,7 +15,7 @@ def run(
 
     print(f"Output: {out_dir.resolve()}")
 
-    summary_path = out_dir.parent / "run_summary.json"
+    summary_path = out_dir.parent / "output.csv"
     summary_path.write_text(json.dumps(result.to_dict(), indent=2), encoding="utf-8")
 
 
